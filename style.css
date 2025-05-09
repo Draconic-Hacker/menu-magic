@@ -46,7 +46,7 @@
     left: 0;
     list-style: none;
     transition: 0.5s;
-    transform: rotate(calc(360deg / 8 * var(--i)));
+    transform: rotate(calc(360deg / 7 * var(--i)));
     transform-origin: 140px;
     scale: 0;
     transition-delay: calc(0.05s * var(--i));
@@ -57,7 +57,7 @@
   .menu li a {
     position: relative;
     display: flex;
-    transform: rotate(calc(360deg / -8 * var(--i)));
+    transform: rotate(calc(360deg / -7 * var(--i)));
     width: 60px;
     height: 60px;
     background-color: #fff;
